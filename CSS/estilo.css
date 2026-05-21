@@ -1,5 +1,7 @@
 body {
     background-color: rgb(253, 226, 193);
+    margin: 0;
+    padding: 0;
 }
 
 /*============================================= PRINCIPAL ==============================================*/
@@ -98,6 +100,7 @@ body {
     align-items: center;
     gap: 30px;
     flex-direction: column;
+    font-size: 20px;
 }
 
 .doacao img{
@@ -123,5 +126,25 @@ body {
     height: auto;
 }
 
+.contato {
+    background-color: rgb(54, 52, 52);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 40px 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.contato li {
+    list-style-type: none;
+}
+
+.contato img {
+    width: 25px;
+    height: 25px;
+}
 
 
