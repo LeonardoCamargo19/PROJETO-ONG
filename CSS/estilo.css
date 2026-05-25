@@ -8,7 +8,24 @@ body {
 
 /*=========Banner=========*/
 
-.desc-banner {
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#banner h1{
+    font-size: 50px;
+}
+
+#banner p {
+    font-size: 30px;
+}
+
+#desc-banner {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -60,12 +77,12 @@ body {
    flex-direction: column;
 }
 
-.desc h1{
+.desc h2{
     transition: all 0.3s ease;
     color: brown;
 }
 
-.desc h1:hover {
+.desc h2:hover {
     transform: scale(1.08);
     color: #da5345;
 }
@@ -80,22 +97,7 @@ body {
 
 /*=============================================== DOAÇÕES ==============================================*/
 
-#banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-}
 
-#banner h1{
-    font-size: 50px;
-}
-
-#banner p {
-    font-size: 30px;
-}
 
 /*================ QR CODE ===================*/
 
