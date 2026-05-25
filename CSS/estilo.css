@@ -80,7 +80,7 @@ body {
 
 /*=============================================== DOAÇÕES ==============================================*/
 
-#doacaobanner {
+#banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,8 +89,12 @@ body {
     margin: 0 auto;
 }
 
-#doacaobanner h1{
+#banner h1{
     font-size: 50px;
+}
+
+#banner p {
+    font-size: 30px;
 }
 
 /*================ QR CODE ===================*/
@@ -147,4 +151,16 @@ body {
     height: 25px;
 }
 
+/*========================================== LOGIN / CADASTRO ==========================================*/
 
+.login {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cadastro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
